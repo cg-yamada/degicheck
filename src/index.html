@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>DEGIcheck</title>
+    <title>degicheck</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <button id="js-getLinks" onclick="getAllLinkElements('__next')">
+        リンク一覧
+      </button>
+      <ul id="js-links"></ul>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
