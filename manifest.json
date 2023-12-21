@@ -1,0 +1,19 @@
+{
+  "name": "DEGIcheck",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "description": "Degicheck.",
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_title": "",
+    "default_popup": "src/index.html",
+    "default_icon": {
+      "19": "images/icon_48.png"
+    }
+  },
+  "permissions": ["management", "tabs"]
+}
