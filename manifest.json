@@ -1,8 +1,8 @@
 {
-  "name": "DEGIcheck",
+  "name": "degicheck",
   "manifest_version": 2,
   "version": "1.0.0",
-  "description": "Degicheck.",
+  "description": "degicheck.",
   "icons": {
     "16": "images/icon_16.png",
     "48": "images/icon_48.png",
